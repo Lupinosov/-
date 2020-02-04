@@ -1,0 +1,45 @@
+body {
+  background: #e9ecef !important;
+}
+
+.mt-header {
+  box-shadow: 0 5px 5px -5px #333;
+}
+
+.header-profile-btn {
+  margin-right: 10px;
+}
+
+.mt-logo {
+  margin-right: 10px;
+}
+
+.mt-box {
+box-shadow: 0 1px 2px 0 rgba(0,0,0,0.16);
+border-radius: 5px;
+padding: 20px;  
+background: #ffffff;
+margin: 10px;
+}
+
+.panel {
+  padding: 20px;
+}
+
+.rating-mini {
+	display: inline-block;
+  font-size: 0;
+  margin-top: 5px;
+}
+.rating-mini span {
+	padding: 0;
+	font-size: 20px;
+	line-height: 1;
+	color: lightgrey;
+}
+.rating-mini > span:before {
+	content: '❆';
+}
+.rating-mini > span.active {
+	color: blue;
+}
